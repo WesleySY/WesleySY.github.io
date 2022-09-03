@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+}
+
+div h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+
+div hr {
+    margin-bottom: 50px;
+}
+
+div button {
+    margin: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+div button a {
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+div button a:hover,
+div button a:active {
+    color: white;
+    background-color: slategray;
+    transition: all 0.5s;
+}

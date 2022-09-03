@@ -1,0 +1,30 @@
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+    margin: 40px;
+}
+
+.form-group b {
+    font-size: 25px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    height: 100%;
+    width: 30vh;
+}
+
+.button:hover,
+.button:active {
+    cursor: pointer;
+    background-color: darkolivegreen;
+    color: azure;
+    transition: all 0.5s;
+}
